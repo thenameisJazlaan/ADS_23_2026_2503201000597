@@ -16,7 +16,7 @@ int precedence(char op)
 
 int main()
 {
-    string infix = "(a+b*(c+d)/f+d*e)";
+    string infix = "(a+b*c-d^e^f)";
     string postfix = "";
 
     stack<char> st;
